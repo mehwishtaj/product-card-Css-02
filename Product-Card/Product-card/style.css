@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white(120, 116, 116);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main Container */
+.container {
+  position: absolute;
+  width: 570px;
+  height: 520px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  margin: 30px 180px;
+}
+
+/* Left Side */
+
+.imgsection {
+  width: 250px;
+  height: 380px;
+  position: relative;
+  background-color: #8b2c2c;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-top: 40px;
+  margin-left: -60px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.shareicon {
+  position: absolute;
+  top: 10px;
+  left: 8px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+
+.hearticon {
+  display: flex;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.bigapple {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin-left: -40px;
+  margin-top: 60px;
+  border-radius: 100px;
+}
+
+.leftwhitesection {
+  position: absolute;
+  bottom: 0;
+  width: 250px;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  margin-bottom: 70px;
+  margin-left: -60px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.redapple {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 20px;
+  margin: 10px;
+  display: flex;
+  gap: 4px;
+}
+
+.redapple1 {
+  width: 45px;
+  height: 45px;
+  margin-left: 4px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.redapple2 {
+  width: 45px;
+  height: 45px;
+  margin-left: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.redapple3 {
+  width: 45px;
+  height: 45px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 12px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.redapple4 {
+  width: 45px;
+  height: 45px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 12px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+/* Right side */
+
+.details {
+  padding: 72px;
+  flex-grow: 1;
+  position: relative;
+}
+
+.details h1 {
+  font-size: 30px;
+  color: #333;
+  position: absolute;
+}
+
+h5 {
+  color: rgb(134, 131, 131);
+  margin-top: 30px;
+  font: 0.7em sans-serif;
+}
+
+span {
+  color: #8b2c2c;
+  font-size: 4em;
+}
+
+h6 {
+  color: rgb(134, 131, 131);
+  margin-bottom: 20px;
+  font: 0.7em sans-serif;
+}
+
+.options {
+  width: 35px;
+  height: 35px;
+  position: relative;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 4px;
+}
+
+.option1 {
+  width: 45px;
+  height: 45px;
+  margin-left: 4px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.option2 {
+  width: 45px;
+  height: 45px;
+  margin-left: 4px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.option3 {
+  width: 45px;
+  height: 45px;
+  margin-left: 4px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.benefits {
+  font-size: 14px;
+  color: rgb(32, 32, 32);
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+/* Button */
+
+.btn {
+  position: absolute;
+  bottom: 50px;
+  padding: 15px 20px;
+  background-color: brown;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: medium;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(216, 75, 75);
+}
